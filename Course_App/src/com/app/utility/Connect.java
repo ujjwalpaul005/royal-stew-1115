@@ -16,11 +16,10 @@ public class Connect {
 			System.out.println(e.getMessage());
 		}
 		
-		String url = "mysql:jdbc://localhost:3306/app_data";
+		String url = "jdbc:mysql://localhost:3306/app_data";
 		
 		try{
 			myLink = DriverManager.getConnection(url, "root", "toor");
-			
 			
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
