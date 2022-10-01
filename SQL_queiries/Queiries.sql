@@ -13,7 +13,6 @@ password varchar(8) not null
 
 
 
-
 create table course
 (
 id int primary key,
