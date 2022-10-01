@@ -13,7 +13,6 @@ password varchar(8) not null
 
 
 
-
 create table course
 (
 id int primary key,
@@ -24,8 +23,6 @@ training_session varchar(6) not null,
 seat int not null
 )
 ;
-
-
 
 
 
