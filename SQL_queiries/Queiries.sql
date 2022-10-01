@@ -30,8 +30,6 @@ seat int not null
 
 
 
-
-
 create table batch
 (
 cid int,
