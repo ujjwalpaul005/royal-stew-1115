@@ -3,7 +3,7 @@ package com.app.dto;
 public class StudentDTO {
 	private int roll;
 	private String name;
-	private String age;
+	private int age;
 	private String address;
 	private String email;
 	private String course;
@@ -21,10 +21,10 @@ public class StudentDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	public String getAddress() {
@@ -59,7 +59,7 @@ public class StudentDTO {
 	}
 	public StudentDTO() {
 	}
-	public StudentDTO(int roll, String name, String age, String address, String email, String course, String duration,
+	public StudentDTO(int roll, String name, int age, String address, String email, String course, String duration,
 			String session) {
 		this.roll = roll;
 		this.name = name;
@@ -72,8 +72,8 @@ public class StudentDTO {
 	}
 	@Override
 	public String toString() {
-		return "StudentDTO [roll=" + roll + ", name=" + name + ", age=" + age + ", address=" + address + ", email="
-				+ email + ", course=" + course + ", duration=" + duration + ", session=" + session + "]";
+		return "Student roll=" + roll + ", name=" + name + ", age=" + age + ", address=" + address + ", email="
+				+ email + ", course=" + course + ", duration=" + duration + ", session=" + session;
 	}
 
 }
