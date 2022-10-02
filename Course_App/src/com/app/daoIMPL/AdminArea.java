@@ -145,7 +145,7 @@ public class AdminArea implements AdminDAO{
 			while(res.next()) {
 				flag = false;
 				detail = new CourseDTO(
-						res.getString("cname"), res.getString("duration"), res.getInt("fees"), res.getInt("seat"), res.getString("traing_session"));
+						res.getString("cname"), res.getString("duration"), res.getInt("fees"), res.getInt("seat"), res.getString("training_session"));
 			}
 			
 			if(flag) {
